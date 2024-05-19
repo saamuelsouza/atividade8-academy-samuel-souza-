@@ -6,7 +6,7 @@ Quero poder me cadastrar no sistema
 Para poder realizar avaliações em filmes
 
 Contexto: Efetuar cadastro de usuários
-Dado que acessei o site Raro Filmes 
+Dado que acessei o sistema Raro Filmes 
  
 Cenário: Deve ser possível cadastrar um usuário com sucesso
 Quando eu selecionar a opção registre-se
@@ -128,4 +128,6 @@ Então deverá retornar uma mensagem de alerta: "As senhas devem ser iguais."
 Cenário: Usuário deve ser criado com o tipo 0, que é o tipo de usuário comum
 Quando cadastrar um novo usuário
 E realizar o login
-Então deve verificar que o usuário foi criado como "Comum"
+E selecionar a opção Perfil
+E avançar com a opção gerenciar conta
+Então deve ser possível verificar que o usuário foi criado como "Comum"
