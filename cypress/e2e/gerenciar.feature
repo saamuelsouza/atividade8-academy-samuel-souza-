@@ -28,4 +28,3 @@ Cenário: Deve ser possível visualizar minhas avaliações
 Quando eu realizar login
 E avançar selecionando a opção Perfil
 Então deverá ser possível verificar a mensagem "Minhas avaliações"  
-
